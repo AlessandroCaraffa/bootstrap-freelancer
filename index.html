@@ -13,7 +13,7 @@
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand text-info col-4" href="#"><i class="bi bi-code-square me-2"></i>Portfolio</a>
-            <a class="text-info text-uppercase text-decoration-underline" href="#">Contact Me</a>
+            <a class="text-info text-uppercase text-decoration-underline" href="#contact-me">Contact Me</a>
         </div>
 
 
@@ -34,10 +34,23 @@
 
     </header>
     <!-- portfolio -->
-    <section class="container">
+    <section class="container mb-3">
+        <h2 class="text-center text-uppercase fw-bold my-3">Portfolio</h2>
         <div class="row">
-            <div class="card col-4 ">
-                <img src="img/portfolio/cabin.png" class="card-img-top img-fluid" alt="...">
+            <div class="col-4 ">
+                <div class="card">
+                    <img src="img/portfolio/cabin.png" class="card-img-top img-fluid" alt="cabin Website">
+                    <div class="card-body container">
+                        <h5 class="card-title text-center">Cabin Website</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-info mx-1">Preview</a>
+                            <a href="#" class="btn btn-outline-info">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="card col-4">
+                <img src="img/portfolio/cake.png" class="card-img-top img-fluid" alt="cake">
                 <div class="card-body container">
                   <h5 class="card-title text-center">Cabin Website</h5>
                   <div class="d-flex justify-content-center">
@@ -47,7 +60,7 @@
                 </div>
               </div>
               <div class="card col-4">
-                <img src="img/portfolio/cabin.png" class="card-img-top img-fluid" alt="...">
+                <img src="img/portfolio/circus.png" class="card-img-top img-fluid" alt="circus">
                 <div class="card-body container">
                   <h5 class="card-title text-center">Cabin Website</h5>
                   <div class="d-flex justify-content-center">
@@ -57,7 +70,7 @@
                 </div>
               </div>
               <div class="card col-4">
-                <img src="img/portfolio/cabin.png" class="card-img-top img-fluid" alt="...">
+                <img src="img/portfolio/game.png" class="card-img-top img-fluid" alt="game controller">
                 <div class="card-body container">
                   <h5 class="card-title text-center">Cabin Website</h5>
                   <div class="d-flex justify-content-center">
@@ -67,7 +80,7 @@
                 </div>
               </div>
               <div class="card col-4">
-                <img src="img/portfolio/cabin.png" class="card-img-top img-fluid" alt="...">
+                <img src="img/portfolio/safe.png" class="card-img-top img-fluid" alt="safe">
                 <div class="card-body container">
                   <h5 class="card-title text-center">Cabin Website</h5>
                   <div class="d-flex justify-content-center">
@@ -77,17 +90,7 @@
                 </div>
               </div>
               <div class="card col-4">
-                <img src="img/portfolio/cabin.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body container">
-                  <h5 class="card-title text-center">Cabin Website</h5>
-                  <div class="d-flex justify-content-center">
-                    <a href="#" class="btn btn-info mx-1">Preview</a>
-                    <a href="#" class="btn btn-outline-info">Visit site</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-4">
-                <img src="img/portfolio/cabin.png" class="card-img-top img-fluid" alt="...">
+                <img src="img/portfolio/submarine.png" class="card-img-top img-fluid" alt="submarine">
                 <div class="card-body container">
                   <h5 class="card-title text-center">Cabin Website</h5>
                   <div class="d-flex justify-content-center">
@@ -101,16 +104,53 @@
 
     </section>
     <!-- about -->
-    <section>
+    <section class="bg-info w-100 py-3">
+        <h2 class="text-uppercase text-center ">About</h2>
+        <div class="container ">
+            <div class="col-6">
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum semper turpis, vitae condimentum lacus varius vitae. Praesent aliquet faucibus nunc, non faucibus metus congue a. Phasellus consequat cursus risus. Curabitur ultricies, elit pulvinar accumsan porta, felis felis pharetra eros, efficitur dignissim leo velit at justo.</p>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum semper turpis, vitae condimentum lacus varius vitae. Praesent aliquet faucibus nunc, non faucibus metus congue a. Phasellus consequat cursus risus. Curabitur ultricies, elit pulvinar accumsan porta, felis felis pharetra eros, efficitur dignissim leo velit at justo.</p>
+            </div>
+            
+        
+        
+            <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn btn-outline-light "><i class="bi bi-download px-1"></i>Download</a>
+            </div>
+        </div>
+
+
 
     </section>
     <!-- contact me -->
-    <form>
-
-    </form>
+    <div class="container" id=contact-me>
+        <h4 class="text-uppercase p-3 text-center">Contact me</h4>
+        <form class="row p-4">
+            <div class="col-6 ">
+                <label for="first-name" class="form-label">First name</label>
+                <input type="text" id="first-name" required class="form-control mb-2" placeholder="Enter your first name...">
+            </div>
+            <div class="col-6 ">
+                <label for="last-name" class="form-label">Last name</label>
+                <input type="text" id="Last-name" required class="form-control mb-2" placeholder="Enter your last name...">
+            </div>
+            <div class="col-6 ">
+                <label for="Email-adress" class="form-label">Email address</label>
+                <input type="text" id="Email-adress" required class="form-control mb-2" placeholder="name@example.com">
+            </div>
+            <div class="col-6 ">
+                <label for="Phone-number" class="form-label">Phone number</label>
+                <input type="text" id="Phone-number" required class="form-control mb-2" placeholder="(123) 456-7890)">
+            </div>
+         <label for="enter-your-message" class="form-label">Message</label>
+         <textarea rows="4" id=enter-your-message class="form-control m-2">Enter your message here...</textarea>
+         </form>
+         <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn btn-info "><i class="bi bi-send"></i>Send</a>
+         </div>
+    </div>
     <!-- footer -->
-    </FOOTER>
-    <footer>
+    <footer class="bg-dark container">
 
     </footer>
     
